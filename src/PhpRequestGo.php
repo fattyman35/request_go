@@ -10,13 +10,11 @@ class PhpRequestGo
 
 
     /**
-     * 轨迹服务器接口
+     * GO 访问域名
      * @var string
      */
     private static string $endpoint = 'http://127.0.0.1:9501';
 
-    /**
-     */
     public function connectGo(string $api, array $params, string $method)
     {
         try {
